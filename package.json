@@ -1,0 +1,34 @@
+{
+  "name": "springboard",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "build": "next build",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.10.2",
+    "@material-ui/icons": "^4.9.1",
+    "koa": "^2.12.1",
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "description": "A simple personal website based on koa, next.js, react, and material-ui.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuso4-5h2o/springboard.git"
+  },
+  "keywords": [
+    "springboard",
+    "personal",
+    "website"
+  ],
+  "author": "cuso4-5h2o",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cuso4-5h2o/springboard/issues"
+  },
+  "homepage": "https://github.com/cuso4-5h2o/springboard#readme"
+}
