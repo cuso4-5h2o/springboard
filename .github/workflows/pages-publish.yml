@@ -17,7 +17,7 @@ jobs:
     - name: Publish to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        personal_token: ${{ secrets.GP_DEPLOY_TOKEN }}
+        personal_token: ${{ secrets.GA_TOKEN }}
         external_repository: cuso4-5h2o/springboard
         publish_branch: pages
         publish_dir: ./out
