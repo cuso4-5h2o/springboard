@@ -32,7 +32,7 @@ jobs:
       with:
         personal_token: ${{ secrets.GP_DEPLOY_TOKEN }}
         external_repository: cuso4-5h2o/springboard
-        publish_branch: github_pages
+        publish_branch: pages
         publish_dir: ./out
     - name: Purge Cloudflare cache
       env:
