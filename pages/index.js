@@ -1,14 +1,14 @@
-import React from 'react';
-import Head from 'next/head';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
-import Grid from '@material-ui/core/Grid';
-import { makeStyles } from '@material-ui/core/styles';
+import React from "react";
+import Head from "next/head";
+import Card from "@material-ui/core/Card";
+import CardActions from "@material-ui/core/CardActions";
+import CardContent from "@material-ui/core/CardContent";
+import Button from "@material-ui/core/Button";
+import Grid from "@material-ui/core/Grid";
+import { makeStyles } from "@material-ui/core/styles";
 
-import Page from '../components/page';
-import Label from '../components/label';
+import Page from "../components/page";
+import Label from "../components/label";
 
 const useStyles = makeStyles({
 	description: {
@@ -41,8 +41,9 @@ export default function Index() {
 macOS Big Sur & Ubuntu 20.04 LTS & Windows 10 2019 LTSC</p>
 									<p className={classes.description}>IDE: JetBrains</p>
 									<p className={classes.description}>Editor: Visual Studio Code</p>
-									<p className={classes.description}>Languages: Go & JavaScript & C++ & Python</p>
+									<p className={classes.description}>Languages: Go & Rust & C++ & Python & JavaScript</p>
 									<p className={classes.description}>Tab: 4 spaces</p>
+									<p className={classes.description}>Also interested in VOCALOID (Synthesizer V)</p>
 								</Grid>
 							</Grid>
 						</CardContent>

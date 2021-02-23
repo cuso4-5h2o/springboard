@@ -1,22 +1,22 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Head from 'next/head';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import theme from '../theme';
+import React from "react";
+import PropTypes from "prop-types";
+import Head from "next/head";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
+import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import theme from "../theme";
 
-import '../styles/global.css';
+import "../styles/global.css";
 
 export default function MyApp(props) {
 	const { Component, pageProps } = props;
-	const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+	const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
 
 	const themeMemo = React.useMemo(
 		() =>
 			createMuiTheme({
 				palette: {
-					type: prefersDarkMode ? 'dark' : 'light',
+					type: prefersDarkMode ? "dark" : "light",
 				}
 			}),
 		[prefersDarkMode]
@@ -24,7 +24,7 @@ export default function MyApp(props) {
 
 	React.useEffect(() => {
 		// Remove the server-side injected CSS.
-		const jssStyles = document.querySelector('#jss-server-side');
+		const jssStyles = document.querySelector("#jss-server-side");
 		if (jssStyles) {
 			jssStyles.parentElement.removeChild(jssStyles);
 		}

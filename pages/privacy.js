@@ -1,11 +1,11 @@
-import React from 'react';
-import Head from 'next/head';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
-import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+import React from "react";
+import Head from "next/head";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
+import Button from "@material-ui/core/Button";
+import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 
-import Page from '../components/page';
+import Page from "../components/page";
 
 export default function Privacy() {
 	return (
@@ -35,7 +35,7 @@ export default function Privacy() {
 										<p><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</p>
 									</li>
 									<li>
-										<p><strong>Company</strong> (referred to as either "We", "Us" or "Our" in this Agreement) refers to cuso4-5h2o.</p>
+										<p><strong>We</strong> (referred to as either "Us" or "Our" in this Agreement) refers to cuso4-5h2o.</p>
 									</li>
 									<li>
 										<p><strong>Cookies</strong> are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.</p>
@@ -47,7 +47,7 @@ export default function Privacy() {
 										<p><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</p>
 									</li>
 									<li>
-										<p><strong>Service</strong> refers to any cuso4-5h2o's software.</p>
+										<p><strong>Service</strong> refers to any cuso4-5h2o's products.</p>
 									</li>
 									<li>
 										<p><strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of cuso4-5h2o. It refers to third-party companies or individuals employed by cuso4-5h2o to facilitate the Service, to provide the Service on behalf of cuso4-5h2o, to perform services related to the Service or to assist cuso4-5h2o in analyzing how the Service is used.</p>
@@ -149,7 +149,7 @@ export default function Privacy() {
 						</CardContent>
 					</Card>
 				</div>
-			</div >
-		</Page >
+			</div>
+		</Page>
 	)
 }
