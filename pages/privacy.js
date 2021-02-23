@@ -18,7 +18,7 @@ export default function Privacy() {
 			</div>
 			<div className="container">
 				<h2>Privacy Policy</h2>
-				<b>Last updated: February 22, 2021</b>
+				<b>Last updated: February 23, 2021</b>
 				<div className="item-container">
 					<Card variant="outlined">
 						<CardContent>
