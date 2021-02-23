@@ -31,18 +31,17 @@ export default function Index() {
 						<CardContent>
 							<Grid container wrap="nowrap" spacing={1} direction="row" alignItems="flex-start">
 								<Grid item>
-									<img className="product-icon" src="/images/avator.png" />
+									<img className="item-icon" src="/images/avators/cuso4-5h2o.png" />
 								</Grid>
 								<Grid item>
 									<Grid container wrap="nowrap" spacing={1} direction="row" alignItems="flex-start">
 										<h4 className="item-title">cuso4-5h2o</h4>
 									</Grid>
-									<p className={classes.description}>OS:
-macOS Big Sur & Ubuntu 20.04 LTS & Windows 10 2019 LTSC</p>
-									<p className={classes.description}>IDE: JetBrains</p>
-									<p className={classes.description}>Editor: Visual Studio Code</p>
-									<p className={classes.description}>Languages: Go & Rust & C++ & Python & JavaScript</p>
-									<p className={classes.description}>Tab: 4 spaces</p>
+									<p className={classes.description}><b>OS:</b> macOS Big Sur & Ubuntu 20.04 LTS & Windows 10 2019 LTSC</p>
+									<p className={classes.description}><b>IDE:</b> JetBrains</p>
+									<p className={classes.description}><b>Editor:</b> Visual Studio Code</p>
+									<p className={classes.description}><b>Languages:</b> Go & Rust & C++ & Python & JavaScript</p>
+									<p className={classes.description}><b>Tab:</b> 4 spaces</p>
 									<p className={classes.description}>Also interested in VOCALOID (Synthesizer V)</p>
 								</Grid>
 							</Grid>
@@ -50,6 +49,7 @@ macOS Big Sur & Ubuntu 20.04 LTS & Windows 10 2019 LTSC</p>
 						<CardActions>
 							<Button size="small" href="https://blog.cuso4.me">My Blog</Button>
 							<Button size="small" href="https://github.com/cuso4-5h2o">GitHub</Button>
+							<Button size="small" href="mailto:contact@cuso4.me">Email</Button>
 						</CardActions>
 					</Card>
 				</div>
@@ -61,7 +61,7 @@ macOS Big Sur & Ubuntu 20.04 LTS & Windows 10 2019 LTSC</p>
 								<CardContent>
 									<Grid container wrap="nowrap" spacing={1} direction="row" alignItems="flex-start">
 										<Grid item>
-											<img className="product-icon" src="/images/products/pamphlet.png" />
+											<img className="item-icon" src="/images/products/pamphlet.png" />
 										</Grid>
 										<Grid item>
 											<Grid container wrap="nowrap" spacing={1} direction="row" alignItems="flex-start">
@@ -83,7 +83,7 @@ macOS Big Sur & Ubuntu 20.04 LTS & Windows 10 2019 LTSC</p>
 								<CardContent>
 									<Grid container wrap="nowrap" spacing={1} direction="row" alignItems="flex-start">
 										<Grid item>
-											<img className="product-icon" src="/images/products/protamine.png" />
+											<img className="item-icon" src="/images/products/protamine.png" />
 										</Grid>
 										<Grid item>
 											<Grid container wrap="nowrap" spacing={1} direction="row" alignItems="flex-start">
@@ -102,7 +102,8 @@ macOS Big Sur & Ubuntu 20.04 LTS & Windows 10 2019 LTSC</p>
 						</Grid>
 					</Grid>
 				</div>
+				<Button variant="outlined" href="/friends">My Friends</Button>
 			</div>
-		</Page >
+		</Page>
 	)
 }

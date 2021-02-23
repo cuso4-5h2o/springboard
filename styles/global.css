@@ -34,7 +34,7 @@ footer {
     text-align: left;
 }
 
-.product-icon {
+.item-icon {
     margin-right: 8px;
     border-radius: 8px;
     width: 64px;
@@ -42,7 +42,7 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
-    .product-icon {
+    .item-icon {
         width: 48px;
         height: 48px;
     }
