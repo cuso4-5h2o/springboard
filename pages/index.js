@@ -47,7 +47,7 @@ export default function Index() {
 							</Grid>
 						</CardContent>
 						<CardActions>
-							<Button size="small" href="https://blog.cuso4.me">My Blog</Button>
+							<Button size="small" href="https://blog.cuso4.me/posts">My Blog</Button>
 							<Button size="small" href="https://github.com/cuso4-5h2o">GitHub</Button>
 							<Button size="small" href="mailto:contact@cuso4.me">Email</Button>
 						</CardActions>
