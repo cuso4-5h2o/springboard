@@ -15,6 +15,7 @@ export default class MyDocument extends Document {
 					<link rel="manifest" href="/site.webmanifest" />
 					{/* PWA primary color */}
 					<meta name="theme-color" content={theme.palette.primary.main} />
+					<meta name="color-scheme" content="light dark" />
 				</Head>
 				<body>
 					<Main />
