@@ -73,8 +73,8 @@ export default function Index() {
 									</Grid>
 								</CardContent>
 								<CardActions>
-									<Button size="small" href="https://pamphlet.cuso4.me">Project Site</Button>
-									<Button size="small" href="https://github.com/cuso4-5h2o/pamphlet">Source Code</Button>
+									<Button size="small" href="https://pamphlet.cuso4.me" target="_blank">Project Site</Button>
+									<Button size="small" href="https://github.com/cuso4-5h2o/pamphlet" target="_blank" rel="noopener">Source Code</Button>
 								</CardActions>
 							</Card>
 						</Grid>
@@ -95,8 +95,8 @@ export default function Index() {
 									</Grid>
 								</CardContent>
 								<CardActions>
-									<Button size="small" href="https://protamine.cuso4.me">Play Now</Button>
-									<Button size="small" href="https://github.com/cuso4-5h2o/protamine">Source Code</Button>
+									<Button size="small" href="https://protamine.cuso4.me" target="_blank">Play Now</Button>
+									<Button size="small" href="https://github.com/cuso4-5h2o/protamine" target="_blank" rel="noopener">Source Code</Button>
 								</CardActions>
 							</Card>
 						</Grid>

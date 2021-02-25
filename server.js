@@ -16,6 +16,6 @@ app.prepare().then(() => {
 
     server.listen(PORT, () => {
         console.log("========== Springboard [by cuso4-5h2o] ==========")
-        console.log("Listening on localhost:%s (%s Mode)", PORT.toString(), (dev?"Development":"Production"));
+        console.log("Listening on http://localhost:%s (%s Mode)", PORT.toString(), (dev?"Development":"Production"));
     });
 });

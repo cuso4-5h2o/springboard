@@ -47,7 +47,7 @@ export default function Friends() {
                                 </Grid>
                             </CardContent>
                             <CardActions>
-                                <Button size="small" href="https://dh.ix.tc">Visit His Blog</Button>
+                                <Button size="small" href="https://dh.ix.tc" target="_blank" rel="noopener">Visit His Blog</Button>
                             </CardActions>
                         </Card>
                     </Grid>
