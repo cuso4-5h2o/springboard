@@ -42,7 +42,7 @@ export default function Index() {
 									<p className={classes.description}><b>Editor:</b> Visual Studio Code</p>
 									<p className={classes.description}><b>Tab:</b> 4 spaces</p>
 									<p className={classes.description}><b>Languages:</b> Go & Rust & C++ & Python & JavaScript</p>
-									<p className={classes.description}><b>Interests:</b>Programming & VOCALOID (& Synthesizer V)</p>
+									<p className={classes.description}><b>Interests:</b> Programming & VOCALOID (& Synthesizer V)</p>
 								</Grid>
 							</Grid>
 						</CardContent>
