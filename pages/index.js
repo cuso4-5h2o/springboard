@@ -40,9 +40,9 @@ export default function Index() {
 									<p className={classes.description}><b>OS:</b> macOS Big Sur & Ubuntu 20.04 LTS & Windows 10 2019 LTSC</p>
 									<p className={classes.description}><b>IDE:</b> JetBrains</p>
 									<p className={classes.description}><b>Editor:</b> Visual Studio Code</p>
-									<p className={classes.description}><b>Languages:</b> Go & Rust & C++ & Python & JavaScript</p>
 									<p className={classes.description}><b>Tab:</b> 4 spaces</p>
-									<p className={classes.description}>Also interested in VOCALOID (/Synthesizer V)</p>
+									<p className={classes.description}><b>Languages:</b> Go & Rust & C++ & Python & JavaScript</p>
+									<p className={classes.description}><b>Interests:</b>Programming & VOCALOID (& Synthesizer V)</p>
 								</Grid>
 							</Grid>
 						</CardContent>
