@@ -51,6 +51,26 @@ export default function Friends() {
                             </CardActions>
                         </Card>
                     </Grid>
+                    <Grid item>
+                        <Card variant="outlined">
+                            <CardContent>
+                                <Grid container wrap="nowrap" spacing={1} direction="row" alignItems="flex-start">
+                                    <Grid item>
+                                        <img className="item-icon" src="/images/avators/miaotony.png" />
+                                    </Grid>
+                                    <Grid item>
+                                        <Grid container wrap="nowrap" spacing={1} direction="row" alignItems="flex-start">
+                                            <h4 className="item-title">MiaoTony</h4>
+                                        </Grid>
+										<p className={classes.description}>仰望星空，脚踏实地，未来可期</p>
+                                    </Grid>
+                                </Grid>
+                            </CardContent>
+                            <CardActions>
+                                <Button size="small" href="https://miaotony.xyz" target="_blank" rel="noopener">Visit His Blog</Button>
+                            </CardActions>
+                        </Card>
+                    </Grid>
                 </Grid>
             </div>
             <div className="item-container">
