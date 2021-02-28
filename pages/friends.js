@@ -62,7 +62,7 @@ export default function Friends() {
                                         <Grid container wrap="nowrap" spacing={1} direction="row" alignItems="flex-start">
                                             <h4 className="item-title">MiaoTony</h4>
                                         </Grid>
-										<p className={classes.description}>仰望星空，脚踏实地，未来可期</p>
+										<p className={classes.description}>Yǎngwàng xīngkōng, jiǎotà shídì, wèilái kěqī.</p>
                                     </Grid>
                                 </Grid>
                             </CardContent>
